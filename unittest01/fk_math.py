@@ -11,6 +11,7 @@ def one_equation(a, b):
     # 返回方程的解
     else:
         #        return -b / a  # ①
+        print('一元函数 x = ', b / a)
         return b / a
 
 
@@ -37,10 +38,11 @@ def two_equation(a, b, c):
         r1 = (-b + (b * b - 4 * a * c) ** 0.5) / 2 / a
         r2 = (-b - (b * b - 4 * a * c) ** 0.5) / 2 / a
         # 方程的两个解
+        print('二元函数 r1 =', r1, '   r2 =', r2)
         return r1, r2
 
 
-if __name__ == '__main__':
-    x = one_equation(2, -6)
-    print('一元函数 x = ', x)
-    print('二元函数 x = ', two_equation(5, 8, 3))
+# if __name__ == '__main__':
+#     x = one_equation(2, -6)
+#     print('一元函数 x = ', x)
+#     print('二元函数 x = ', two_equation(5, 8, 3))
