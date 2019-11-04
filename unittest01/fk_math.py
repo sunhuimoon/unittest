@@ -1,6 +1,6 @@
 def one_equation(a, b):
     """
-    求一元一次方程a * x + b = 0的解
+    求一元一次方程a * x - b = 0的解
     参数a - 方程中变量的系数
     参数b - 方程中的常量
     返回 方程的解
@@ -43,6 +43,6 @@ def two_equation(a, b, c):
 
 
 # if __name__ == '__main__':
-#     x = one_equation(2, -6)
-#     print('一元函数 x = ', x)
-#     print('二元函数 x = ', two_equation(5, 8, 3))
+# x = one_equation(2, -6)
+# print('一元函数 x = ', x)
+# print('二元函数 x = ', two_equation(5, 8, 3))
